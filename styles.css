@@ -1,11 +1,15 @@
+/* Colores institucionales tomados del logo oficial de Hexnex */
 :root {
-  --bg: #f7f8fa;
+  --navy: #0e2358;
+  --blue: #0073fe;
+  --blue-deep: #0240af;
+  --cyan: #00cdea;
+  --bg: #f7f7f7;
   --surface: #ffffff;
-  --text: #16202c;
-  --muted: #55606e;
-  --brand: #0f6e6a;
-  --brand-dark: #0b5653;
-  --line: #e3e7ec;
+  --text: #0e2358;
+  --muted: #4a5468;
+  --line: #e1e5ee;
+  --gradient: linear-gradient(90deg, var(--blue-deep), var(--blue) 55%, var(--cyan));
 }
 
 * { box-sizing: border-box; }
@@ -25,27 +29,37 @@ body {
 }
 
 .top {
-  background: var(--surface);
-  border-bottom: 1px solid var(--line);
+  background: var(--bg);
+  border-bottom: 3px solid transparent;
+  border-image: var(--gradient) 1;
 }
 
 .top-inner {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  min-height: 64px;
+  min-height: 68px;
 }
 
-.logo {
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+}
+
+.brand img { width: 44px; height: 44px; }
+
+.brand span {
   font-weight: 800;
-  font-size: 1.4rem;
-  letter-spacing: 0.02em;
-  color: var(--brand);
+  font-size: 1.35rem;
+  letter-spacing: 0.06em;
+  color: var(--navy);
 }
 
 .btn {
   display: inline-block;
-  background: var(--brand);
+  background: var(--blue);
   color: #fff;
   text-decoration: none;
   font-weight: 600;
@@ -53,27 +67,41 @@ body {
   border-radius: 8px;
 }
 
-.btn:hover { background: var(--brand-dark); }
+.btn:hover { background: var(--blue-deep); }
 
 .btn-small { padding: 8px 14px; font-size: 0.95rem; }
 
 .hero {
-  background: var(--surface);
-  border-bottom: 1px solid var(--line);
-  padding: 64px 0;
-  margin-bottom: 24px;
+  background: var(--bg);
+  padding: 48px 0 56px;
+}
+
+.hero-inner {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+.hero-text { flex: 1 1 0; }
+
+.hero-logo {
+  flex: 0 0 300px;
+  width: 300px;
+  height: auto;
 }
 
 .eyebrow {
-  margin: 0 0 8px;
-  color: var(--brand);
-  font-weight: 600;
-  font-size: 0.95rem;
+  margin: 0 0 10px;
+  color: var(--blue);
+  font-weight: 700;
+  font-size: 0.85rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
 }
 
 h1 {
   margin: 0 0 16px;
-  font-size: clamp(1.8rem, 5vw, 2.8rem);
+  font-size: clamp(1.8rem, 5vw, 2.7rem);
   line-height: 1.15;
   max-width: 18ch;
 }
@@ -82,7 +110,7 @@ h1 {
   margin: 0 0 28px;
   font-size: 1.15rem;
   color: var(--muted);
-  max-width: 55ch;
+  max-width: 50ch;
 }
 
 h2 {
@@ -99,30 +127,44 @@ h2 {
 .card {
   background: var(--surface);
   border: 1px solid var(--line);
+  border-top: 4px solid var(--blue);
   border-radius: 10px;
   padding: 20px;
 }
+
+.card:nth-child(2) { border-top-color: var(--cyan); }
+.card:nth-child(3) { border-top-color: var(--blue-deep); }
+.card:nth-child(4) { border-top-color: var(--navy); }
 
 .card h3 { margin: 0 0 8px; font-size: 1.1rem; }
 .card p { margin: 0; color: var(--muted); }
 
 .steps { padding-left: 20px; }
 .steps li { margin-bottom: 8px; }
+.steps li::marker { color: var(--blue); }
 
 .contact {
-  background: var(--surface);
-  border-top: 1px solid var(--line);
-  margin-top: 40px;
-  padding: 8px 0 24px;
+  background: var(--navy);
+  color: #fff;
+  margin-top: 48px;
+  padding: 8px 0 28px;
 }
 
+.contact h2 { color: #fff; }
 .contact p { margin: 6px 0; }
+.contact a { color: var(--cyan); }
 
-a { color: var(--brand); }
+a { color: var(--blue); }
 
 .foot {
   color: var(--muted);
   font-size: 0.9rem;
   padding-top: 16px;
   padding-bottom: 24px;
+}
+
+@media (max-width: 720px) {
+  .hero { padding-top: 24px; }
+  .hero-inner { flex-direction: column-reverse; align-items: flex-start; gap: 8px; }
+  .hero-logo { flex-basis: auto; width: 200px; align-self: center; }
 }

@@ -1,0 +1,596 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-24T15:44:19+00:00",
+  "title": "Design System: Hexnex",
+  "extensions": {
+    "colorMeta": {
+      "ink": {
+        "role": "primary",
+        "displayName": "Annual Navy",
+        "canonical": "#0e2358",
+        "oklch": "oklch(27.6% 0.100 264.4)",
+        "tonalRamp": [
+          "#000134",
+          "#0b2054",
+          "#273f76",
+          "#445f9a",
+          "#6481be",
+          "#86a4e4",
+          "#b0c9fd",
+          "#e7effe"
+        ]
+      },
+      "blue": {
+        "role": "primary",
+        "displayName": "Registration Blue",
+        "canonical": "#0073fe",
+        "oklch": "oklch(58.8% 0.225 258.7)",
+        "tonalRamp": [
+          "#00003a",
+          "#002157",
+          "#003c8e",
+          "#0059ca",
+          "#237cfb",
+          "#6fa5f9",
+          "#abcbfb",
+          "#e5efff"
+        ]
+      },
+      "blue-deep": {
+        "role": "primary",
+        "displayName": "Registration Blue Deep",
+        "canonical": "#0240af",
+        "oklch": "oklch(41.8% 0.186 261.6)",
+        "tonalRamp": [
+          "#000039",
+          "#001b64",
+          "#00369a",
+          "#1c58c8",
+          "#3f7cef",
+          "#71a3ff",
+          "#accafe",
+          "#e6efff"
+        ]
+      },
+      "cyan": {
+        "role": "secondary",
+        "displayName": "Seal Cyan",
+        "canonical": "#00cdea",
+        "oklch": "oklch(77.9% 0.136 212.6)",
+        "tonalRamp": [
+          "#000e13",
+          "#002b32",
+          "#054b56",
+          "#0f6d7d",
+          "#0192a8",
+          "#07b9d3",
+          "#36e0fd",
+          "#d2f6fe"
+        ]
+      },
+      "cyan-wash": {
+        "role": "secondary",
+        "displayName": "Cyan Wash",
+        "canonical": "#d3f4f9",
+        "oklch": "oklch(94.5% 0.035 207.7)",
+        "tonalRamp": [
+          "#000f12",
+          "#0d2a2e",
+          "#2b474c",
+          "#4a676c",
+          "#6a898d",
+          "#8cacb0",
+          "#b0d0d5",
+          "#d5f6fb"
+        ]
+      },
+      "blue-wash": {
+        "role": "secondary",
+        "displayName": "Blue Wash",
+        "canonical": "#eaf3ff",
+        "oklch": "oklch(96.1% 0.019 255.5)",
+        "tonalRamp": [
+          "#060b13",
+          "#1f262e",
+          "#3b434c",
+          "#5a626c",
+          "#7b838e",
+          "#9da6b1",
+          "#c1cad6",
+          "#e6effb"
+        ]
+      },
+      "cyan-ink": {
+        "role": "secondary",
+        "displayName": "Cyan Ink",
+        "canonical": "#00657a",
+        "oklch": "oklch(46.8% 0.084 218.6)",
+        "tonalRamp": [
+          "#000e15",
+          "#012a34",
+          "#064a59",
+          "#116c81",
+          "#3e8ea4",
+          "#63b2c9",
+          "#87d7ee",
+          "#d7f5fe"
+        ]
+      },
+      "paper": {
+        "role": "neutral",
+        "displayName": "Uncoated Sheet",
+        "canonical": "#f7f7f7",
+        "oklch": "oklch(97.6% 0.000 89.9)",
+        "tonalRamp": [
+          "#0b0b0b",
+          "#252525",
+          "#424242",
+          "#616161",
+          "#828282",
+          "#a5a5a5",
+          "#c9c9c9",
+          "#eeeeee"
+        ]
+      },
+      "paper-cool": {
+        "role": "neutral",
+        "displayName": "Cool Edge",
+        "canonical": "#f1f3f7",
+        "oklch": "oklch(96.4% 0.006 264.5)",
+        "tonalRamp": [
+          "#0a0b0e",
+          "#242528",
+          "#404245",
+          "#5f6165",
+          "#808286",
+          "#a3a5a9",
+          "#c7c9cd",
+          "#eceef2"
+        ]
+      },
+      "paper-warm": {
+        "role": "neutral",
+        "displayName": "Warm Edge",
+        "canonical": "#f9f7f3",
+        "oklch": "oklch(97.7% 0.006 84.6)",
+        "tonalRamp": [
+          "#0c0b09",
+          "#262522",
+          "#43423f",
+          "#63615e",
+          "#84827e",
+          "#a7a5a1",
+          "#cbc9c5",
+          "#f0eeea"
+        ]
+      },
+      "sheet-white": {
+        "role": "neutral",
+        "displayName": "Plate White",
+        "canonical": "#ffffff",
+        "oklch": "oklch(100.0% 0.000 89.9)",
+        "tonalRamp": [
+          "#0b0b0b",
+          "#252525",
+          "#424242",
+          "#616161",
+          "#828282",
+          "#a5a5a5",
+          "#c9c9c9",
+          "#eeeeee"
+        ]
+      },
+      "ink-soft": {
+        "role": "neutral",
+        "displayName": "Soft Ink",
+        "canonical": "#3d4a6b",
+        "oklch": "oklch(41.3% 0.058 267.4)",
+        "tonalRamp": [
+          "#030823",
+          "#182341",
+          "#344161",
+          "#536083",
+          "#7382a6",
+          "#95a5ca",
+          "#b8c9f0",
+          "#e7eeff"
+        ]
+      },
+      "ink-reverse-soft": {
+        "role": "neutral",
+        "displayName": "Reverse Soft Ink",
+        "canonical": "#9fb2d9",
+        "oklch": "oklch(76.2% 0.060 264.6)",
+        "tonalRamp": [
+          "#020824",
+          "#162442",
+          "#324162",
+          "#506184",
+          "#7082a7",
+          "#92a5cc",
+          "#b6c9f1",
+          "#e7effe"
+        ]
+      },
+      "hair": {
+        "role": "neutral",
+        "displayName": "Hairline",
+        "canonical": "#c9c7c4",
+        "oklch": "oklch(83.0% 0.005 78.3)",
+        "tonalRamp": [
+          "#0c0b09",
+          "#262523",
+          "#43423f",
+          "#63615e",
+          "#84827f",
+          "#a7a5a2",
+          "#cbc9c6",
+          "#f0eeeb"
+        ]
+      },
+      "hair-soft": {
+        "role": "neutral",
+        "displayName": "Soft Hairline",
+        "canonical": "#dcdad6",
+        "oklch": "oklch(88.9% 0.006 84.6)",
+        "tonalRamp": [
+          "#0c0b08",
+          "#262522",
+          "#43423e",
+          "#63615d",
+          "#84827e",
+          "#a7a5a1",
+          "#cbc9c5",
+          "#f0eeea"
+        ]
+      },
+      "wa-green": {
+        "role": "third-party",
+        "displayName": "WhatsApp Green",
+        "canonical": "#25d366",
+        "oklch": "oklch(76.1% 0.201 149.7)",
+        "tonalRamp": [
+          "#001101",
+          "#002e0f",
+          "#025021",
+          "#0a7534",
+          "#209b4b",
+          "#2dc461",
+          "#4cec7e",
+          "#c9fed2"
+        ]
+      },
+      "wa-green-hover": {
+        "role": "third-party",
+        "displayName": "WhatsApp Green Hover",
+        "canonical": "#3be07a",
+        "oklch": "oklch(80.1% 0.195 151.3)",
+        "tonalRamp": [
+          "#001102",
+          "#002e12",
+          "#025024",
+          "#097539",
+          "#1f9b51",
+          "#2cc368",
+          "#4bec85",
+          "#c9fed5"
+        ]
+      },
+      "wa-green-ink": {
+        "role": "third-party",
+        "displayName": "WhatsApp Green Ink",
+        "canonical": "#0b2b1a",
+        "oklch": "oklch(26.0% 0.050 156.9)",
+        "tonalRamp": [
+          "#001004",
+          "#0c2c1b",
+          "#2b4a37",
+          "#4a6a56",
+          "#6a8c76",
+          "#8caf99",
+          "#b0d3bc",
+          "#d4f9e1"
+        ]
+      },
+      "wa-teal": {
+        "role": "third-party",
+        "displayName": "WhatsApp Teal",
+        "canonical": "#075e54",
+        "oklch": "oklch(43.4% 0.075 182.2)",
+        "tonalRamp": [
+          "#000f0c",
+          "#002d27",
+          "#0a4d45",
+          "#236f65",
+          "#489186",
+          "#6cb5a9",
+          "#90dacd",
+          "#bbfef2"
+        ]
+      },
+      "wa-paper": {
+        "role": "third-party",
+        "displayName": "Chat Paper",
+        "canonical": "#efeae2",
+        "oklch": "oklch(93.9% 0.012 79.8)",
+        "tonalRamp": [
+          "#0e0b06",
+          "#28241f",
+          "#45413b",
+          "#65615a",
+          "#86827a",
+          "#a9a49d",
+          "#cdc8c1",
+          "#f3eee6"
+        ]
+      },
+      "wa-bubble-out": {
+        "role": "third-party",
+        "displayName": "Outgoing Bubble",
+        "canonical": "#d9fdd3",
+        "oklch": "oklch(95.7% 0.067 141.1)",
+        "tonalRamp": [
+          "#001100",
+          "#102d0b",
+          "#2d4b28",
+          "#4c6b47",
+          "#6c8d67",
+          "#8eb089",
+          "#b2d5ac",
+          "#d7fad1"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Opening headline only, max ~9.5ch."
+      },
+      "display-back": {
+        "displayName": "Display Back",
+        "purpose": "The single word on the navy contact spread."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Section headlines beside or above plates."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Step titles and the privacy heading."
+      },
+      "lede": {
+        "displayName": "Lede",
+        "purpose": "Opening subcopy in Soft Ink, max 40ch."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Running copy, 40-62ch; 16px under 600px."
+      },
+      "body-small": {
+        "displayName": "Body Small",
+        "purpose": "Service descriptions and chat bubbles."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Mono caps registration labels: plate credits, nav tokens, service names, table heads, chips, colophon terms."
+      },
+      "label-button": {
+        "displayName": "Label Button",
+        "purpose": "Mono caps button labels (13px on the WhatsApp button)."
+      }
+    },
+    "shadows": [
+      {
+        "name": "plate-frame",
+        "value": "0 0 0 1px #c9c7c4",
+        "purpose": "Hairline ring on every plate; paired with outline: 1px solid #dcdad6 and outline-offset: 10px."
+      },
+      {
+        "name": "wa-bubble",
+        "value": "0 1px 0.5px rgb(11 20 26 / 0.13)",
+        "purpose": "Chat bubbles inside the WhatsApp plate only, reproducing WhatsApp's rendering."
+      },
+      {
+        "name": "floating-action",
+        "value": "0 8px 20px -6px rgb(14 35 88 / 0.45)",
+        "purpose": "The fixed WhatsApp button only."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease",
+        "value": "cubic-bezier(0.16, 1, 0.3, 1)",
+        "purpose": "Single easing for all state transitions."
+      },
+      {
+        "name": "state",
+        "value": "0.3s",
+        "purpose": "Button fills, nav color, bar border, float button fade."
+      },
+      {
+        "name": "draw",
+        "value": "0.4s",
+        "purpose": "Nav underline draw-in and button arrow slide (4px)."
+      },
+      {
+        "name": "reveal",
+        "value": "opacity 0.6s, transform 0.7s, filter 0.6s; 250ms + 650ms stagger",
+        "purpose": "Chat plate bubbles rise 10px and unblur in sequence; armed only by JS with reduced motion off."
+      },
+      {
+        "name": "seal-spin",
+        "value": "40s linear infinite",
+        "purpose": "Seal ring text rotation; disabled under reduced motion."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "wide",
+        "value": "1080px"
+      },
+      {
+        "name": "tablet",
+        "value": "900px"
+      },
+      {
+        "name": "phone",
+        "value": "600px"
+      }
+    ],
+    "assets": [
+      {
+        "path": "logo.jpg",
+        "provenance": "Owner's official Hexnex logo asset (640px), provided by the owner; cropped/resized locally."
+      },
+      {
+        "path": "logo-mark.png",
+        "provenance": "Owner's official Hexnex mark, provided by the owner; cropped/resized locally."
+      },
+      {
+        "path": "favicon.png",
+        "provenance": "Owner's official Hexnex mark, provided by the owner; resized locally."
+      },
+      {
+        "path": "fonts/hanken-grotesk-400.woff2, fonts/hanken-grotesk-500.woff2, fonts/hanken-grotesk-600.woff2",
+        "provenance": "Hanken Grotesk, fontsource@5.2.5, SIL OFL 1.1, self-hosted."
+      },
+      {
+        "path": "fonts/jetbrains-mono-400.woff2",
+        "provenance": "JetBrains Mono, fontsource@5.2.5, SIL OFL 1.1, self-hosted."
+      }
+    ],
+    "knownGaps": [
+      "No uncoated-paper texture raster; the sheet is CSS gradients only.",
+      "Demonstration plates are authored examples; real screenshots of past work pending from the owner."
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button (ink)",
+      "kind": "button",
+      "refersTo": "button-ink",
+      "description": "The primary WhatsApp action: square navy fill, mono caps, official green glyph, sliding arrow.",
+      "html": "<a class=\"ds-btn-ink\" href=\"#\"><svg viewBox=\"0 0 24 24\" width=\"20\" height=\"20\" fill=\"#25d366\" aria-hidden=\"true\"><path d=\"M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z\"/></svg>Hablar por WhatsApp<svg viewBox=\"0 0 24 24\" width=\"18\" height=\"18\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" aria-hidden=\"true\" class=\"ds-arrow\"><path d=\"M3 12h17m-5-5 5 5-5 5\"/></svg></a>",
+      "css": ".ds-btn-ink{display:inline-flex;align-items:center;gap:14px;min-height:48px;padding:0 22px;background:#0e2358;color:#fff;font-family:'JetBrains Mono',ui-monospace,Consolas,monospace;text-transform:uppercase;letter-spacing:0.14em;font-weight:400;font-size:12px;text-decoration:none;white-space:nowrap;border-radius:0;transition:background-color .3s cubic-bezier(0.16,1,0.3,1);}.ds-btn-ink .ds-arrow{transition:transform .4s cubic-bezier(0.16,1,0.3,1);}.ds-btn-ink:hover{background:#0240af;}.ds-btn-ink:hover .ds-arrow{transform:translateX(4px);}.ds-btn-ink:focus-visible{outline:2px solid #0073fe;outline-offset:3px;}"
+    },
+    {
+      "name": "Line Button",
+      "kind": "button",
+      "refersTo": "button-line",
+      "description": "Outline control in the sticky bar; fills navy on hover.",
+      "html": "<a class=\"ds-btn-line\" href=\"#\">Escríbenos</a>",
+      "css": ".ds-btn-line{display:inline-flex;align-items:center;min-height:44px;padding:0 22px;border:1px solid #0e2358;color:#0e2358;background:transparent;font-family:'JetBrains Mono',ui-monospace,Consolas,monospace;text-transform:uppercase;letter-spacing:0.14em;font-weight:400;font-size:12px;text-decoration:none;border-radius:0;transition:background-color .3s cubic-bezier(0.16,1,0.3,1),color .3s cubic-bezier(0.16,1,0.3,1);}.ds-btn-line:hover{background:#0e2358;color:#fff;}.ds-btn-line:focus-visible{outline:2px solid #0073fe;outline-offset:3px;}"
+    },
+    {
+      "name": "WhatsApp Button",
+      "kind": "button",
+      "refersTo": "button-wa",
+      "description": "WhatsApp-green action on the navy contact spread only.",
+      "html": "<div class=\"ds-back\"><a class=\"ds-btn-wa\" href=\"#\"><svg viewBox=\"0 0 24 24\" width=\"22\" height=\"22\" fill=\"currentColor\" aria-hidden=\"true\"><path d=\"M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z\"/></svg>+593 98 315 0933</a></div>",
+      "css": ".ds-back{background:#0e2358;padding:24px;}.ds-btn-wa{display:inline-flex;align-items:center;gap:14px;min-height:56px;padding:0 26px;background:#25d366;color:#0b2b1a;font-family:'JetBrains Mono',ui-monospace,Consolas,monospace;text-transform:uppercase;letter-spacing:0.14em;font-weight:400;font-size:13px;text-decoration:none;border-radius:0;transition:background-color .3s cubic-bezier(0.16,1,0.3,1);}.ds-btn-wa:hover{background:#3be07a;}.ds-btn-wa:focus-visible{outline:2px solid #00cdea;outline-offset:3px;}"
+    },
+    {
+      "name": "Token Navigation",
+      "kind": "nav",
+      "refersTo": "nav-token",
+      "description": "Mono caps tokens with a hairline underline that draws in from the left.",
+      "html": "<nav class=\"ds-tokens\"><a href=\"#\">Trabajos</a><a href=\"#\">Servicios</a><a href=\"#\">Cómo empezamos</a><a href=\"#\">Contacto</a></nav>",
+      "css": ".ds-tokens{display:flex;gap:36px;}.ds-tokens a{font-family:'JetBrains Mono',ui-monospace,Consolas,monospace;text-transform:uppercase;letter-spacing:0.14em;font-weight:400;font-size:11px;color:#3d4a6b;text-decoration:none;padding-block:8px;background:linear-gradient(#0e2358,#0e2358) left 100%/0 1px no-repeat;transition:background-size .4s cubic-bezier(0.16,1,0.3,1),color .3s;}.ds-tokens a:hover{color:#0e2358;background-size:100% 1px;}.ds-tokens a:focus-visible{outline:2px solid #0073fe;outline-offset:3px;}"
+    },
+    {
+      "name": "State Chips",
+      "kind": "chip",
+      "refersTo": "state-chip",
+      "description": "Square mono chips for record states: neutral, go, wait.",
+      "html": "<span class=\"ds-state ds-go\">Pedido listo</span> <span class=\"ds-state ds-wait\">Por cotizar</span> <span class=\"ds-state\">Respondido</span>",
+      "css": ".ds-state{display:inline-block;padding:4px 8px;font-family:'JetBrains Mono',ui-monospace,monospace;font-size:11px;letter-spacing:.1em;text-transform:uppercase;white-space:nowrap;border:1px solid #c9c7c4;color:#3d4a6b;border-radius:0;}.ds-go{border-color:#0073fe;color:#0240af;background:#eaf3ff;}.ds-wait{border-color:#00cdea;color:#00657a;background:#d3f4f9;}"
+    },
+    {
+      "name": "Mounted Plate",
+      "kind": "card",
+      "refersTo": "plate-sheet",
+      "description": "A plate on the sheet: hairline ring, offset soft outline, four registration crosshairs, mono credit below.",
+      "html": "<div class=\"ds-paper\"><figure class=\"ds-plate\"><span class=\"ds-reg ds-tl\"></span><span class=\"ds-reg ds-tr\"></span><span class=\"ds-reg ds-bl\"></span><span class=\"ds-reg ds-br\"></span><div class=\"ds-sheet\"><div class=\"ds-sheet-head\"><b>Interesados de hoy</b><span>3 registros</span></div><div class=\"ds-sheet-row\"><span>21:15</span><b>Andrea M.</b><span>Galón de caucho blanco</span></div></div><figcaption class=\"ds-credit\"><span>Lámina 02 · Registro</span><span>Datos de ejemplo</span></figcaption></figure></div>",
+      "css": ".ds-paper{padding:40px;background:#f7f7f7;}.ds-plate{position:relative;margin:0;color:#0e2358;font-family:'Hanken Grotesk','Segoe UI',system-ui,sans-serif;}.ds-sheet{background:#fff;box-shadow:0 0 0 1px #c9c7c4;outline:1px solid #dcdad6;outline-offset:10px;}.ds-sheet-head{display:flex;justify-content:space-between;align-items:baseline;padding:20px 24px;border-bottom:1px solid #dcdad6;}.ds-sheet-head b{font-weight:500;font-size:18px;}.ds-sheet-head span,.ds-credit{font-family:'JetBrains Mono',ui-monospace,monospace;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#3d4a6b;}.ds-sheet-row{display:flex;gap:24px;padding:16px 24px;font-size:15px;}.ds-sheet-row b{font-weight:500;}.ds-credit{display:flex;justify-content:space-between;gap:16px;margin-top:14px;padding-top:10px;border-top:1px solid #c9c7c4;}.ds-reg{position:absolute;width:21px;height:21px;}.ds-reg::before,.ds-reg::after{content:'';position:absolute;background:#0e2358;}.ds-reg::before{left:10px;top:0;width:1px;height:21px;}.ds-reg::after{top:10px;left:0;height:1px;width:21px;}.ds-tl{top:-22px;left:-22px;}.ds-tr{top:-22px;right:-22px;}.ds-bl{bottom:20px;left:-22px;}.ds-br{bottom:20px;right:-22px;}"
+    },
+    {
+      "name": "Seal",
+      "kind": "custom",
+      "refersTo": null,
+      "description": "The single rotating signature seal: cyan wash disk, mono caps ring text, white core carrying the official logo mark (shown here as a navy placeholder disk).",
+      "html": "<div class=\"ds-seal\"><svg viewBox=\"0 0 120 120\"><defs><path id=\"ds-ring\" d=\"M60 60m-45 0a45 45 0 1 1 90 0a45 45 0 1 1-90 0\"/></defs><circle cx=\"60\" cy=\"60\" r=\"59\" class=\"ds-disk\"/><g class=\"ds-spin\"><text><textPath href=\"#ds-ring\">HEXNEX · TECNOLOGÍA QUE IMPULSA TU NEGOCIO ·</textPath></text></g><circle cx=\"60\" cy=\"60\" r=\"31\" class=\"ds-core\"/><circle cx=\"60\" cy=\"60\" r=\"18\" fill=\"#0e2358\"/></svg></div>",
+      "css": ".ds-seal{width:132px;height:132px;}.ds-seal svg{width:100%;height:100%;overflow:visible;}.ds-disk{fill:#d3f4f9;stroke:#00cdea;stroke-width:1;}.ds-core{fill:#fff;stroke:#c9c7c4;stroke-width:.75;}.ds-seal text{font-family:'JetBrains Mono',ui-monospace,monospace;font-size:8.4px;letter-spacing:.16em;fill:#0e2358;}.ds-spin{transform-origin:60px 60px;animation:ds-spin 40s linear infinite;}@keyframes ds-spin{to{transform:rotate(360deg);}}@media (prefers-reduced-motion:reduce){.ds-spin{animation:none;}}"
+    },
+    {
+      "name": "Steps Table",
+      "kind": "custom",
+      "refersTo": null,
+      "description": "Ruled index of steps: navy top rule, hairline rows, Blue Deep mono numeral, title, Soft Ink copy, mono tag.",
+      "html": "<ol class=\"ds-steps\"><li><span class=\"ds-n\">1</span><h3>Auditoría de tu sitio actual</h3><p>Revisamos lo que tienes y te entregamos mejoras concretas.</p><span class=\"ds-tag\">Gratis</span></li><li><span class=\"ds-n\">2</span><h3>Demo de tu página o catálogo</h3><p>Ves tu negocio en pantalla antes de decidir nada.</p><span class=\"ds-tag\">Gratis</span></li></ol>",
+      "css": ".ds-steps{list-style:none;margin:0;padding:0;border-top:1px solid #0e2358;color:#0e2358;font-family:'Hanken Grotesk','Segoe UI',system-ui,sans-serif;}.ds-steps li{display:grid;grid-template-columns:56px 1fr 1fr 100px;align-items:baseline;column-gap:24px;padding:30px 0;border-bottom:1px solid #c9c7c4;}.ds-steps h3{margin:0;font-weight:400;font-size:24px;letter-spacing:-.015em;line-height:1.2;}.ds-steps p{margin:0;color:#3d4a6b;font-size:17px;}.ds-n,.ds-tag{font-family:'JetBrains Mono',ui-monospace,monospace;font-size:11px;letter-spacing:.14em;text-transform:uppercase;}.ds-n{color:#0240af;}.ds-tag{justify-self:end;color:#3d4a6b;}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Plate Section",
+    "overview": "Hexnex presents its work the way a design annual presents its plates: each solution is a printed plate on a near-white uncoated sheet, fixed in place by registration crosshairs, captioned with a mono plate credit, and countersigned by one rotating circular seal that carries the logo mark. The page reads as a printed object, not as an app shell. Navy ink does the talking; the brand blues and cyan appear as registration color, never as decoration.\n\nDensity is calm and editorial. A 12-column sheet holds large regular-weight grotesque headlines on one side and a single plate on the other, with generous section air between spreads. Every structural line is a 1px hairline. Depth comes from paper and hairlines, not from lifted cards. The site's demonstration plates (a WhatsApp conversation, a leads register) are authored reproductions labeled as examples; where a plate reproduces a third-party product, that product keeps its own official colors and shapes inside the plate frame.\n\nThe build rejects the agency default of headline plus phone mockup plus a row of rounded icon cards; that is the confirmed anti-reference from the direction contract.",
+    "keyCharacteristics": [
+      "Near-white sheet (paper) with a cool drift at the top-left and a warm drift lower right, never a flat white page.",
+      "Navy ink for all text and primary controls; pure black is never used.",
+      "1px hairlines for every divider, frame and table rule; dashed hairlines only between credit columns.",
+      "CSS registration crosshairs at the four corners of every plate.",
+      "One grotesque (Hanken Grotesk) for display and body; 11px mono caps (JetBrains Mono) for registration labels, plate credits, nav tokens, buttons, table heads and state chips.",
+      "Square Hexnex controls; circles are reserved for the logo mark, the seal, avatars and the floating WhatsApp button.",
+      "A single rotating seal per page, in cyan wash with a cyan rule."
+    ],
+    "rules": [
+      {
+        "name": "The Never-Black Rule",
+        "body": "Text and dark surfaces are Annual Navy. Pure black does not appear anywhere in the Hexnex layer.",
+        "section": "colors"
+      },
+      {
+        "name": "The Quarantined Green Rule",
+        "body": "WhatsApp green and its companions appear only on WhatsApp's own mark, WhatsApp buttons and the WhatsApp plate. They never become a Hexnex accent, divider or highlight.",
+        "section": "colors"
+      },
+      {
+        "name": "The Registration Color Rule",
+        "body": "Blue, deep blue and cyan mark registration: seal, focus, numerals, glyph strokes, state chips. They do not fill sections or large surfaces.",
+        "section": "colors"
+      },
+      {
+        "name": "The One Grotesque Rule",
+        "body": "Display and body are the same family at weight 400. Hierarchy comes from size and tracking, not from bold.",
+        "section": "typography"
+      },
+      {
+        "name": "The Registration Mono Rule",
+        "body": "Mono is always 11 to 13px, uppercase and tracked. It labels and credits; it never sets a headline or a paragraph.",
+        "section": "typography"
+      },
+      {
+        "name": "The Mounted Plate Rule",
+        "body": "Plates sit on the sheet with a hairline ring and an offset outline. Never give a plate a drop shadow or a hard offset shadow.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "**Do** set every text and dark surface in Annual Navy (#0e2358).",
+      "**Do** frame every plate with a 1px hairline ring, an offset soft outline (10px) and four registration crosshairs, and caption it with a mono plate credit.",
+      "**Do** label authored demonstration plates as examples in their credit until the owner supplies real screenshots.",
+      "**Do** keep Hexnex controls square with mono caps labels, 44 to 56px tall.",
+      "**Do** use the owner's official logo files as supplied and present the mark in a circle.",
+      "**Do** reproduce third-party products (WhatsApp) in their official colors and shapes, inside the plate frame.",
+      "**Do** keep headlines at weight 400 with negative tracking and let size carry hierarchy."
+    ],
+    "donts": [
+      "**Don't** use pure black, or any accent other than the logo's blues and cyan, in the Hexnex layer.",
+      "**Don't** let WhatsApp green leave WhatsApp's mark, buttons and plate.",
+      "**Don't** give plates drop shadows or hard offset shadows.",
+      "**Don't** round Hexnex buttons, chips or plates; circles are only for the logo mark, seal, avatar and floating button.",
+      "**Don't** set headlines or paragraphs in mono, or place mono labels above headlines as kickers.",
+      "**Don't** fall back to the headline + phone mockup + row of rounded icon cards composition.",
+      "**Don't** add a second seal or a second display family."
+    ]
+  }
+}

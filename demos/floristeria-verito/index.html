@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Floristería Verito · Arreglos florales a domicilio en Quito</title>
+  <meta name="description" content="Demo de la página de inicio de Floristería Verito: arreglos con precios, pedidos por WhatsApp y fechas especiales.">
+  <meta name="robots" content="noindex">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Gloock&family=Figtree:wght@400;500;600;700&family=Caveat:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <symbol id="i-flor" viewBox="0 0 32 32"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="16" cy="12" r="3"/><path d="M16 9c0-4 3-6 3-6s3 3 0 6m-3 0c0-4-3-6-3-6s-3 3 0 6m6 3c4 0 6 3 6 3s-3 3-6 0m-6 0c-4 0-6 3-6 3s3 3 6 0M16 15v14m0-6c-3 0-6-2-6-5 3 0 6 2 6 5Zm0 2c3 0 6-2 6-5-3 0-6 2-6 5Z"/></g></symbol>
+    <symbol id="i-wa" viewBox="0 0 24 24"><path fill="currentColor" d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.2-.4.2-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.9 11.9 0 0 0 4.6 4c1.7.7 2.3.8 3.2.6.5-.1 1.5-.6 1.8-1.2.2-.6.2-1.1.1-1.2l-.5-.3Z"/></symbol>
+    <symbol id="i-moto" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="5.5" cy="17" r="3"/><circle cx="18.5" cy="17" r="3"/><path d="M8.5 17h6l2-6h-4l-2 3H5.5M14 5h3l1.5 6"/></g></symbol>
+    <symbol id="i-mano" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21c-4-2.5-8-6-8-10a4 4 0 0 1 8-1 4 4 0 0 1 8 1c0 4-4 7.5-8 10Z"/></g></symbol>
+    <symbol id="i-reloj" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></g></symbol>
+  </svg>
+
+  <div class="demo-ribbon" role="note">Demo preparada por Hexnex · Fotos, arreglos y precios de ejemplo</div>
+
+  <header class="top" id="top">
+    <a class="brand" href="#top" aria-label="Floristería Verito, inicio">
+      <svg class="brand-mark" aria-hidden="true"><use href="#i-flor"/></svg>
+      <span><span class="brand-pre">Floristería</span> <span data-name>Verito</span></span>
+    </a>
+    <nav class="nav" aria-label="Principal">
+      <a href="#arreglos">Arreglos</a>
+      <a href="#fechas">Fechas especiales</a>
+      <a href="#pedido">Hacer un pedido</a>
+    </nav>
+    <a class="btn btn-wa btn-sm" id="top-wa" href="#" target="_blank" rel="noopener"><svg aria-hidden="true"><use href="#i-wa"/></svg>WhatsApp</a>
+  </header>
+
+  <main>
+    <section class="hero" aria-labelledby="hero-t">
+      <div class="hero-copy">
+        <h1 id="hero-t">Flores frescas, armadas a mano y <em>entregadas en Quito.</em></h1>
+        <p class="lede">Elige un arreglo, escribe la dedicatoria y envíanos el pedido por WhatsApp. Si pides antes de las 14:00, llega el mismo día.</p>
+        <div class="hero-actions">
+          <a class="btn btn-solid" href="#arreglos">Ver arreglos y precios</a>
+          <a class="btn btn-ghost" href="#pedido">Armar mi pedido</a>
+        </div>
+        <ul class="hero-facts">
+          <li><svg aria-hidden="true"><use href="#i-moto"/></svg><span><b>Entrega a domicilio</b> en norte, centro, sur y valles</span></li>
+          <li><svg aria-hidden="true"><use href="#i-reloj"/></svg><span><b>Mismo día</b> pidiendo antes de las 14:00</span></li>
+          <li><svg aria-hidden="true"><use href="#i-mano"/></svg><span><b>Tarjeta escrita a mano</b> sin costo</span></li>
+        </ul>
+      </div>
+      <figure class="hero-media">
+        <img src="https://images.unsplash.com/photo-1523693916903-027d144a2b7d?auto=format&fit=crop&w=1000&h=1200&q=70" alt="Ramo de rosas rosadas y blancas" width="1000" height="1200">
+        <figcaption class="tag-card">
+          <span>Arreglo de la semana</span>
+          <b id="hero-pick">Jardín rosado</b>
+          <small id="hero-pick-price"></small>
+        </figcaption>
+      </figure>
+    </section>
+
+    <section class="dates" id="fechas" aria-labelledby="fechas-t">
+      <div class="dates-next" id="next-date">
+        <h2 id="fechas-t">Fechas especiales</h2>
+        <p class="dates-lead" id="next-date-text"></p>
+        <a class="btn btn-solid btn-sm" href="#pedido" id="next-date-btn">Reservar para esa fecha</a>
+      </div>
+      <ol class="dates-list" id="dates-list"></ol>
+    </section>
+
+    <section class="catalog" id="arreglos" aria-labelledby="arreglos-t">
+      <div class="sec-head">
+        <h2 id="arreglos-t">Arreglos para cada ocasión</h2>
+        <p>Precios de ejemplo para la demo; el tamaño grande suma $<span id="big-extra"></span>.</p>
+      </div>
+      <div class="chips" role="tablist" aria-label="Filtrar por ocasión" id="chips"></div>
+      <ul class="grid" id="grid" aria-live="polite"></ul>
+    </section>
+
+    <section class="order" id="pedido" aria-labelledby="pedido-t">
+      <div class="order-intro">
+        <h2 id="pedido-t">Arma tu pedido</h2>
+        <p>Completa los datos y se abrirá WhatsApp con el pedido escrito. Confirmamos disponibilidad y forma de pago por ahí.</p>
+        <div class="card-preview" aria-live="polite">
+          <div class="card-paper">
+            <p class="card-to">Para <span id="pv-to">…</span></p>
+            <p class="card-msg" id="pv-msg">Tu dedicatoria aparecerá aquí, escrita a mano.</p>
+            <p class="card-from">— <span id="pv-from">…</span></p>
+          </div>
+          <p class="card-note">Así se verá la tarjeta que acompaña el arreglo.</p>
+        </div>
+      </div>
+
+      <form class="order-form" id="order-form" novalidate>
+        <fieldset>
+          <legend>El arreglo</legend>
+          <div class="fields">
+            <label class="span2">Arreglo<select id="f-item" required></select></label>
+            <div class="seg span2" role="radiogroup" aria-label="Tamaño">
+              <label><input type="radio" name="size" value="normal" checked><span>Normal</span></label>
+              <label><input type="radio" name="size" value="grande"><span>Grande <small id="size-extra"></small></span></label>
+            </div>
+          </div>
+        </fieldset>
+
+        <fieldset>
+          <legend>La entrega</legend>
+          <div class="fields">
+            <label>Fecha<input id="f-date" type="date" required></label>
+            <label>Sector<select id="f-zone" required></select></label>
+            <label class="span2">Dirección y referencia<input id="f-address" autocomplete="street-address" placeholder="Calle, número y una referencia" required></label>
+            <p class="hint span2" id="date-hint"></p>
+          </div>
+        </fieldset>
+
+        <fieldset>
+          <legend>La tarjeta</legend>
+          <div class="fields">
+            <label>Para<input id="f-to" autocomplete="off" placeholder="Nombre de quien recibe" required></label>
+            <label>De parte de<input id="f-from" autocomplete="name" placeholder="Tu nombre" required></label>
+            <label class="span2">Dedicatoria <span class="count" id="msg-count"></span><textarea id="f-msg" rows="3" maxlength="160" placeholder="Feliz cumpleaños, mamá. Gracias por todo."></textarea></label>
+          </div>
+        </fieldset>
+
+        <div class="total" aria-live="polite">
+          <dl id="sum"></dl>
+          <p class="total-line"><span>Total estimado</span><b id="total"></b></p>
+        </div>
+        <p class="form-err" id="form-err" role="alert"></p>
+        <button class="btn btn-wa btn-wide" type="submit"><svg aria-hidden="true"><use href="#i-wa"/></svg>Enviar pedido por WhatsApp</button>
+      </form>
+
+      <div class="done" id="done" hidden tabindex="-1">
+        <h3 id="done-t"></h3>
+        <p>Se abrió WhatsApp con tu pedido. Si no se abrió, usa este botón:</p>
+        <a class="btn btn-wa" id="done-wa" href="#" target="_blank" rel="noopener"><svg aria-hidden="true"><use href="#i-wa"/></svg>Abrir WhatsApp</a>
+        <button class="link" type="button" id="done-new">Hacer otro pedido</button>
+      </div>
+    </section>
+
+    <section class="visit" aria-labelledby="visit-t">
+      <h2 id="visit-t">Visítanos o escríbenos</h2>
+      <dl class="visit-list">
+        <div><dt>Dirección</dt><dd>Dirección del local (dato de ejemplo)</dd></div>
+        <div><dt>Horario</dt><dd id="hours"></dd></div>
+        <div><dt>Pedidos</dt><dd>Desde esta página o por WhatsApp</dd></div>
+      </dl>
+    </section>
+  </main>
+
+  <footer class="foot">
+    <span><b>Floristería <span data-name>Verito</span></b> · Quito</span>
+    <span>Demo de sitio web hecha a la medida por <a href="https://juanpage.github.io/hexnex/">Hexnex</a></span>
+  </footer>
+
+  <script src="app.js" defer></script>
+</body>
+</html>

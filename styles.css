@@ -10,6 +10,9 @@
   --muted: #4a5468;
   --line: #e1e5ee;
   --gradient: linear-gradient(90deg, var(--blue-deep), var(--blue) 55%, var(--cyan));
+  /* Colores oficiales de WhatsApp */
+  --wa: #25d366;
+  --wa-dark: #128c7e;
 }
 
 * { box-sizing: border-box; }
@@ -70,6 +73,40 @@ body {
 .btn:hover { background: var(--blue-deep); }
 
 .btn-small { padding: 8px 14px; font-size: 0.95rem; }
+
+.ico {
+  width: 1.2em;
+  height: 1.2em;
+  fill: currentColor;
+  flex: none;
+}
+
+.btn-wa {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: var(--wa);
+}
+
+.btn-wa:hover { background: var(--wa-dark); }
+
+.wa-float {
+  position: fixed;
+  right: 16px;
+  bottom: 16px;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: var(--wa);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.25);
+}
+
+.wa-float:hover { background: var(--wa-dark); }
+.wa-float .ico { width: 30px; height: 30px; }
 
 .hero {
   background: var(--bg);
@@ -153,6 +190,14 @@ h2 {
 .contact h2 { color: #fff; }
 .contact p { margin: 6px 0; }
 .contact a { color: var(--cyan); }
+
+.contact-line {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.contact .ico-wa { color: var(--wa); }
 
 a { color: var(--blue); }
 

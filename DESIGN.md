@@ -234,12 +234,12 @@ Weights 500 and 600 appear only for short emphasis: the brand wordmark (600), na
 
 A centered sheet (max 1360px) with fluid side gutters (clamp 16 to 56px). Spreads use a 12-column grid with a 24px column gap: text in columns 1 to 6 (or 1 to 5), the plate in columns 7 to 12 offset 24px inward on the opening spread. The privacy spread sets its heading in columns 1 to 4 and copy in 6 to 11; the contact spread sets the giant word in 1 to 6 and the action column in 8 to 12, bottom-aligned.
 
-The sticky bar is 72px tall (64px under 600px), translucent paper with a blur, gaining a soft hairline only once scrolled. Sections are separated by air, not boxes: vertical padding around clamp(96px, 14vh, 150 to 176px). The services credits row is a 4-column strip under one hairline, split by dashed hairlines. The steps are a ruled table: navy top rule, hairline row rules, 30px rows with columns 80px numeral / title / copy / 160px tag.
+The sticky bar is 72px tall (64px under 600px), translucent paper with a blur, gaining a soft hairline only once scrolled. Sections are separated by air, not boxes: vertical padding around clamp(96px, 14vh, 150 to 176px). Services are an offer index right after the opening: a headline with a side note, then four ruled rows under a navy top rule (48px glyph / 30-44px service title / pitch plus a three-item list marked with short blue dashes / outline CTA with a prefilled WhatsApp message). The WhatsApp assistant row is the flagship: inverted to navy, cyan glyph and dashes, WhatsApp-green CTA. On hover or focus a cyan wash (deep blue on the flagship) wipes in from the left via clip-path. The steps are a ruled table: navy top rule, hairline row rules, 30px rows with columns 80px numeral / title / copy / 160px tag.
 
 Responsive behavior:
-- Under 1080px: credits go to 2 columns; the step tag column drops.
+- Under 1080px: offer rows go to 3 columns with the CTA under the title; the step tag column drops.
 - Under 900px: nav tokens hide; every spread collapses to one column; plates gain a 22px inset so crosshairs and the seal stay on screen; the dot matrix hides; the seal shrinks to 84px and moves to the plate's lower-left.
-- Under 600px: credits stack with dashed top rules; the leads table becomes stacked rows (time, client, state on one line; the request below); colophon and footer stack.
+- Under 600px: offer rows stack into one column; the leads table becomes stacked rows (time, client, state on one line; the request below); colophon and footer stack.
 
 ## Elevation & Depth
 

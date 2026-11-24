@@ -204,18 +204,49 @@ h1 {
 .seal img { position: absolute; left: 50%; top: 50%; width: 44px; height: 44px; transform: translate(-50%, -50%); border-radius: 50%; }
 @keyframes spin { to { transform: rotate(360deg); } }
 
-/* ---------- Créditos de servicios ---------- */
-.credits ul {
-  list-style: none; margin: 0; padding: 32px 0 0;
-  display: grid; grid-template-columns: repeat(4, minmax(0, 1fr));
-  border-top: 1px solid var(--hair);
+/* ---------- Oferta de servicios ---------- */
+.offer { padding-top: clamp(72px, 10vh, 120px); }
+.offer-head { display: grid; grid-template-columns: repeat(12, minmax(0, 1fr)); column-gap: 24px; align-items: end; margin-bottom: 48px; }
+.offer-head h2 { grid-column: 1 / span 7; }
+.offer-head p { grid-column: 9 / span 4; font-size: 18px; color: var(--ink-soft); }
+.offer-list { list-style: none; margin: 0; padding: 0; border-top: 1px solid var(--ink); }
+.offer-row {
+  position: relative; isolation: isolate;
+  display: grid; grid-template-columns: 56px minmax(0, 4fr) minmax(0, 5fr) minmax(0, 2.4fr);
+  column-gap: 32px; align-items: start;
+  padding: 40px 28px; border-bottom: 1px solid var(--hair);
 }
-.credits li { display: flex; gap: 20px; padding: 4px 28px 8px; }
-.credits li + li { border-left: 1px dashed var(--hair); }
-.credits li:first-child { padding-left: 0; }
-.glyph { width: 40px; height: 40px; flex: none; color: var(--blue-deep); }
-.credits .label { color: var(--ink); margin-bottom: 8px; line-height: 1.5; }
-.credits p { font-size: 15.5px; line-height: 1.45; color: var(--ink-soft); max-width: 24ch; }
+.offer-row::before {
+  content: ""; position: absolute; inset: 0; z-index: -1; background: var(--cyan-wash);
+  clip-path: inset(0 100% 0 0); transition: clip-path 0.6s var(--ease);
+}
+.offer-row:hover::before, .offer-row:focus-within::before { clip-path: inset(0 0 0 0); }
+.glyph { width: 48px; height: 48px; color: var(--blue-deep); margin-top: 4px; }
+.offer-row h3 { font-size: clamp(30px, 3vw, 44px); line-height: 1.04; letter-spacing: -0.025em; }
+.offer-body p { font-size: 18px; line-height: 1.45; margin-bottom: 14px; }
+.offer-incl { list-style: none; margin: 0; padding: 0; display: grid; gap: 6px; }
+.offer-incl li { position: relative; padding-left: 22px; font-size: 16px; color: var(--ink-soft); }
+.offer-incl li::before { content: ""; position: absolute; left: 0; top: 0.72em; width: 12px; height: 1px; background: var(--blue); }
+.offer-cta {
+  justify-self: end; align-self: center;
+  display: inline-flex; align-items: center; gap: 12px; min-height: 48px; padding: 0 18px;
+  border: 1px solid var(--ink); text-decoration: none; white-space: nowrap;
+  font-family: var(--mono); font-size: 12px; letter-spacing: 0.14em; text-transform: uppercase;
+  transition: background-color 0.3s var(--ease), color 0.3s var(--ease);
+}
+.offer-cta:hover { background: var(--ink); color: #fff; }
+.offer-cta .ico { transition: transform 0.4s var(--ease); }
+.offer-cta:hover .ico { transform: translateX(4px); }
+
+/* El asistente es el servicio insignia: fila en tinta */
+.offer-star { background: var(--ink); color: #fff; border-bottom-color: var(--ink); }
+.offer-star::before { background: var(--blue-deep); }
+.offer-star .glyph { color: var(--cyan); }
+.offer-star .offer-incl li { color: #c4d0ea; }
+.offer-star .offer-incl li::before { background: var(--cyan); }
+.offer-star .offer-cta { background: var(--wa); color: #0b2b1a; border-color: var(--wa); }
+.offer-star .offer-cta:hover { background: #3be07a; color: #0b2b1a; }
+.offer-star :focus-visible { outline-color: var(--cyan); }
 
 /* ---------- Trabajos ---------- */
 .works {
@@ -300,8 +331,11 @@ h1 {
 /* ---------- Responsivo ---------- */
 @media (max-width: 1080px) {
   .tokens { gap: 22px; }
-  .credits ul { grid-template-columns: repeat(2, minmax(0, 1fr)); row-gap: 28px; }
-  .credits li:nth-child(3) { border-left: 0; padding-left: 0; }
+  .offer-row { grid-template-columns: 48px minmax(0, 1fr) minmax(0, 1.3fr); row-gap: 20px; }
+  .offer-row .glyph { grid-column: 1; grid-row: 1 / span 2; }
+  .offer-row h3 { grid-column: 2; grid-row: 1; }
+  .offer-body { grid-column: 3; grid-row: 1 / span 2; }
+  .offer-cta { grid-column: 2; grid-row: 2; align-self: end; justify-self: start; }
   .step-table li { grid-template-columns: 56px minmax(0, 1fr) minmax(0, 1fr); }
   .step-tag { display: none; }
 }
@@ -318,7 +352,8 @@ h1 {
   .seal { width: 84px; height: 84px; left: -18px; bottom: 18px; }
   .seal img { width: 30px; height: 30px; }
   .plate-chat .credit { padding-left: 64px; }
-  .credits { padding-top: 40px; }
+  .offer-head { grid-template-columns: minmax(0, 1fr); row-gap: 16px; }
+  .offer-head h2, .offer-head p { grid-column: 1; }
   .plate-leads { margin: 56px 22px 0; }
   .privacy { row-gap: 20px; }
   .back-inner { row-gap: 40px; padding-bottom: 72px; }
@@ -329,9 +364,9 @@ h1 {
   .bar-inner { height: 64px; }
   .brand span { display: none; }
   .btn-line { min-height: 40px; padding: 0 16px; }
-  .credits ul { grid-template-columns: minmax(0, 1fr); }
-  .credits li, .credits li:first-child { padding: 18px 0; border-left: 0; }
-  .credits li + li { border-top: 1px dashed var(--hair); }
+  .offer-row { grid-template-columns: minmax(0, 1fr); row-gap: 14px; padding: 32px 18px; }
+  .offer-row .glyph { width: 40px; height: 40px; }
+  .offer-row .glyph, .offer-row h3, .offer-body, .offer-cta { grid-column: 1; grid-row: auto; }
   .wa-thread { min-height: 0; padding: 16px 14px 20px; }
   .msg { max-width: 88%; font-size: 15px; }
   .credit { flex-direction: column; gap: 2px; }

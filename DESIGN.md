@@ -144,6 +144,8 @@ components:
     size: "58px"
 ---
 
+> **Revision 2026-11-24 (owner direction, supersedes conflicting rules below).** After reviewing peer agency sites (notably kom.pe), the owner asked for a livelier, KOM-style structure: a navy-to-blue rounded hero panel with a cyan hexagon-grid texture and a hexagon diagram linking the four services around the rotating seal; every WhatsApp action is the official green circle with the white glyph (optionally followed by a mono label), and the floating WhatsApp button stays visible on the whole page; sections now run hero, services, "Incluido en cada proyecto" (six feature cards with gradient icon tiles), "Nuestro trabajo" portfolio (2x2 cards on a light-blue dotted stage: browser frames with full-page screenshots that scroll on hover, a phone frame for the chat demo), a navy call band, a five-step method timeline, FAQ, privacy panel and the navy contact spread. Shipping rasters: work-fundar.jpg and work-hexnex.jpg are full-page Playwright captures (1280px viewport at 0.6 scale) of fundargalapagos.org and of this site.
+
 # Design System: Hexnex
 
 ## Overview

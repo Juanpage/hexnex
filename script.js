@@ -1,4 +1,4 @@
-// Hexnex: revelado de la conversación de ejemplo, borde de la barra y botón flotante.
+// Hexnex: revelado de la conversación de ejemplo y borde de la barra al hacer scroll.
 (function () {
   const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
@@ -18,17 +18,9 @@
   }
 
   const bar = document.querySelector('.bar');
-  const floatBtn = document.querySelector('.wa-float');
-  const contact = document.getElementById('contacto');
-  const heroCta = document.querySelector('.opening .btn-ink');
 
   function updateOnScroll() {
     if (bar) bar.classList.toggle('is-scrolled', window.scrollY > 8);
-    if (floatBtn && contact) {
-      const top = contact.getBoundingClientRect().top;
-      const heroVisible = heroCta ? heroCta.getBoundingClientRect().bottom > 0 : false;
-      floatBtn.classList.toggle('is-hidden', heroVisible || top < window.innerHeight * 0.8);
-    }
   }
   window.addEventListener('scroll', updateOnScroll, { passive: true });
   updateOnScroll();

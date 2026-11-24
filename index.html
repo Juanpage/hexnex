@@ -18,6 +18,10 @@
     <symbol id="i-web" viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="1.25"><rect x="4.5" y="7.5" width="31" height="25"/><path d="M4.5 13.5h31M8 10.5h1m2 0h1m2 0h1M9.5 18.5h11m-11 4h8m-8 4h13M25.5 18.5h6.5v8h-6.5z"/></symbol>
     <symbol id="i-chat" viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="1.25"><path d="M5.5 8.5h20v13h-11l-5 4.5v-4.5h-4z"/><path d="M28.5 14.5h6v13h-4v4.5l-5-4.5h-8.5v-3"/><path d="M10 13.5h11m-11 4h7"/></symbol>
     <symbol id="i-system" viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="1.25"><path d="M5.5 6.5h29v27h-29zM5.5 14.5h29M5.5 22.5h29M14.5 14.5v19"/><path d="M9 10.5h1m3 0h1"/><path d="M19 18.5h10m-10 8h6"/></symbol>
+    <symbol id="i-phone" viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="11.5" y="4.5" width="17" height="31" rx="3"/><path d="M17.5 8.5h5M18.5 31h3"/></symbol>
+    <symbol id="i-ruler" viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M5.5 26.5 26.5 5.5l8 8-21 21z"/><path d="m11 21 3 3m1-7 2 2m1-6 3 3m1-7 2 2"/></symbol>
+    <symbol id="i-bubble" viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M20 6.5c7.7 0 13.5 5.4 13.5 12s-5.8 12-13.5 12c-1.6 0-3.1-.2-4.5-.6L8.5 33l1.8-6C8 24.9 6.5 21.9 6.5 18.5c0-6.6 5.8-12 13.5-12z"/></symbol>
+    <symbol id="i-price" viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9.5 4.5h15l6 6v25h-21z"/><path d="M24.5 4.5v6h6M14 18h12m-12 5h12m-12 5h7"/></symbol>
     <symbol id="i-care" viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="1.25"><path d="M20 4.5 33.5 9v10c0 8-5.6 13.6-13.5 16.5C12.1 32.6 6.5 27 6.5 19V9z"/><path d="m14 19.5 4.5 4.5 8-9"/></symbol>
   </svg>
 
@@ -36,22 +40,42 @@
         <a href="#preguntas">Preguntas</a>
         <a href="#contacto">Contacto</a>
       </nav>
-      <a class="btn btn-line" href="https://wa.me/593983150933">Escríbenos</a>
+      <a class="wa-btn wa-btn-sm" href="https://wa.me/593983150933"><span class="wa-dot"><svg class="ico" aria-hidden="true"><use href="#i-whatsapp"/></svg></span><span class="wa-label">Escríbenos</span></a>
     </div>
   </header>
 
   <main id="contenido">
-    <section class="sheet opening" aria-labelledby="titular">
-      <h1 id="titular">Hecho <span class="accent">a la medida</span> de tu negocio.</h1>
-      <div class="opening-side">
-        <p class="lede">Sitios web, asistentes de WhatsApp y sistemas propios para negocios de cualquier rubro. Desde Quito, Ecuador.</p>
-        <a class="btn btn-ink" href="https://wa.me/593983150933">
-          <svg class="ico ico-wa" aria-hidden="true"><use href="#i-whatsapp"/></svg>
-          Hablar por WhatsApp
-          <svg class="ico" aria-hidden="true"><use href="#i-arrow"/></svg>
-        </a>
-        <p class="rubros-t">Para negocios como</p>
-        <ul class="rubros"><li>Hoteles</li><li>Restaurantes</li><li>Tiendas</li><li>Clínicas</li><li>Academias</li><li>Servicios profesionales</li><li>ONG</li><li>Turismo</li></ul>
+    <section class="sheet hero" aria-labelledby="titular">
+      <div class="hero-panel">
+        <div class="hero-copy">
+          <h1 id="titular">Hecho <span class="accent">a la medida</span> de tu negocio.</h1>
+          <p class="lede">Sitios web, asistentes de WhatsApp y sistemas propios para negocios de cualquier rubro. Desde Quito, Ecuador.</p>
+          <a class="wa-btn wa-btn-lg" href="https://wa.me/593983150933"><span class="wa-dot"><svg class="ico" aria-hidden="true"><use href="#i-whatsapp"/></svg></span><span class="wa-label">Escríbenos por WhatsApp</span></a>
+        </div>
+        <div class="hero-graphic">
+          <svg class="hex-art" viewBox="0 0 400 400" aria-hidden="true">
+            <polygon class="hex-outer" points="200,30 347.2,115 347.2,285 200,370 52.8,285 52.8,115"/>
+            <polygon class="hex-inner" points="200,90 295.3,145 295.3,255 200,310 104.7,255 104.7,145"/>
+            <path class="hex-flow" d="M200 200 L347.2 115 M200 200 L347.2 285 M200 200 L52.8 285 M200 200 L52.8 115"/>
+          </svg>
+          <div class="seal hex-core" aria-hidden="true">
+            <svg viewBox="0 0 120 120">
+              <defs><path id="ring" d="M60 60m-45 0a45 45 0 1 1 90 0a45 45 0 1 1-90 0"/></defs>
+              <circle cx="60" cy="60" r="59" class="seal-disk"/>
+              <g class="seal-spin"><text><textPath href="#ring">HEXNEX · TECNOLOGÍA QUE IMPULSA TU NEGOCIO ·</textPath></text></g>
+              <circle cx="60" cy="60" r="31" class="seal-core"/>
+            </svg>
+            <img src="logo-mark.png" alt="" width="44" height="44">
+          </div>
+            <a class="node n1" href="#servicios"><span class="node-ico"><svg aria-hidden="true"><use href="#i-web"/></svg></span>Sitios web</a>
+            <a class="node n2" href="#servicios"><span class="node-ico"><svg aria-hidden="true"><use href="#i-chat"/></svg></span>Asistente de WhatsApp</a>
+            <a class="node n3" href="#servicios"><span class="node-ico"><svg aria-hidden="true"><use href="#i-system"/></svg></span>Sistemas a medida</a>
+            <a class="node n4" href="#servicios"><span class="node-ico"><svg aria-hidden="true"><use href="#i-care"/></svg></span>Mantenimiento</a>
+        </div>
+        <div class="hero-foot">
+          <p class="rubros-t">Para negocios como</p>
+          <ul class="rubros"><li>Hoteles</li><li>Restaurantes</li><li>Tiendas</li><li>Clínicas</li><li>Academias</li><li>Servicios profesionales</li><li>ONG</li><li>Turismo</li></ul>
+        </div>
       </div>
     </section>
 
@@ -68,16 +92,16 @@
             <p>Tu página propia, para que te encuentren y te escriban.</p>
             <ul class="offer-incl"><li>Cotización, reservas o pedidos</li><li>Botón directo a tu WhatsApp</li><li>Se ve bien en el celular</li></ul>
           </div>
-          <a class="offer-cta" href="https://wa.me/593983150933?text=Hola%2C%20me%20interesa%20un%20sitio%20web%20para%20mi%20negocio.">Pedir mi sitio <svg class="ico" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+          <a class="wa-btn offer-cta" href="https://wa.me/593983150933?text=Hola%2C%20me%20interesa%20un%20sitio%20web%20para%20mi%20negocio."><span class="wa-dot"><svg class="ico" aria-hidden="true"><use href="#i-whatsapp"/></svg></span><span class="wa-label">Pedir mi sitio</span></a>
         </li>
         <li class="offer-row">
           <svg class="glyph" aria-hidden="true"><use href="#i-chat"/></svg>
           <h3>Asistente de WhatsApp</h3>
           <div class="offer-body">
-            <p>Atiende a tus clientes a cualquier hora, como en la Lámina 01.</p>
+            <p>Atiende a tus clientes a cualquier hora, como el ejemplo de Nuestro trabajo.</p>
             <ul class="offer-incl"><li>Responde con tus productos y precios</li><li>Anota a cada interesado</li><li>Te avisa cuando hay un pedido</li></ul>
           </div>
-          <a class="offer-cta" href="https://wa.me/593983150933?text=Hola%2C%20me%20interesa%20un%20asistente%20de%20WhatsApp%20para%20mi%20negocio.">Quiero mi asistente <svg class="ico" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+          <a class="wa-btn offer-cta" href="https://wa.me/593983150933?text=Hola%2C%20me%20interesa%20un%20asistente%20de%20WhatsApp%20para%20mi%20negocio."><span class="wa-dot"><svg class="ico" aria-hidden="true"><use href="#i-whatsapp"/></svg></span><span class="wa-label">Quiero mi asistente</span></a>
         </li>
         <li class="offer-row">
           <svg class="glyph" aria-hidden="true"><use href="#i-system"/></svg>
@@ -86,7 +110,7 @@
             <p>Ordena lo que hoy llevas en cuadernos y hojas de cálculo.</p>
             <ul class="offer-incl"><li>Registros de clientes, ventas o inventario</li><li>Reportes listos para revisar</li><li>Hecho para tu forma de trabajar</li></ul>
           </div>
-          <a class="offer-cta" href="https://wa.me/593983150933?text=Hola%2C%20me%20interesa%20un%20sistema%20a%20medida%20para%20mi%20negocio.">Contar mi caso <svg class="ico" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+          <a class="wa-btn offer-cta" href="https://wa.me/593983150933?text=Hola%2C%20me%20interesa%20un%20sistema%20a%20medida%20para%20mi%20negocio."><span class="wa-dot"><svg class="ico" aria-hidden="true"><use href="#i-whatsapp"/></svg></span><span class="wa-label">Contar mi caso</span></a>
         </li>
         <li class="offer-row">
           <svg class="glyph" aria-hidden="true"><use href="#i-care"/></svg>
@@ -95,27 +119,42 @@
             <p>Nos encargamos de que tu sitio siga al día mientras tú atiendes tu negocio.</p>
             <ul class="offer-incl"><li>Revisiones y actualizaciones</li><li>Respaldos de tu información</li><li>Cambios pequeños de contenido</li></ul>
           </div>
-          <a class="offer-cta" href="https://wa.me/593983150933?text=Hola%2C%20me%20interesa%20el%20mantenimiento%20mensual%20de%20mi%20sitio.">Consultar <svg class="ico" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+          <a class="wa-btn offer-cta" href="https://wa.me/593983150933?text=Hola%2C%20me%20interesa%20el%20mantenimiento%20mensual%20de%20mi%20sitio."><span class="wa-dot"><svg class="ico" aria-hidden="true"><use href="#i-whatsapp"/></svg></span><span class="wa-label">Consultar</span></a>
         </li>
       </ul>
     </section>
 
+    <section class="sheet feats" aria-labelledby="feats-t">
+      <h2 id="feats-t" class="display-2">Incluido en cada proyecto.</h2>
+      <ul class="feat-grid">
+        <li><span class="feat-ico"><svg aria-hidden="true"><use href="#i-ruler"/></svg></span><h3>Diseño según tu negocio</h3><p>Partimos de cómo vendes y atiendes, no de una plantilla.</p></li>
+        <li><span class="feat-ico"><svg aria-hidden="true"><use href="#i-phone"/></svg></span><h3>Se ve bien en el celular</h3><p>Tus clientes te visitan desde el teléfono; ahí tiene que verse perfecto.</p></li>
+        <li><span class="feat-ico"><svg aria-hidden="true"><use href="#i-bubble"/></svg></span><h3>WhatsApp a un toque</h3><p>Cada página lleva a una conversación directa contigo o con tu asistente.</p></li>
+        <li><span class="feat-ico"><svg aria-hidden="true"><use href="#i-care"/></svg></span><h3>Datos protegidos</h3><p>Trabajamos conforme a la Ley Orgánica de Protección de Datos Personales.</p></li>
+        <li><span class="feat-ico"><svg aria-hidden="true"><use href="#i-price"/></svg></span><h3>Precio final por escrito</h3><p>Sabes cuánto cuesta y cuánto tarda antes de empezar.</p></li>
+        <li><span class="feat-ico"><svg aria-hidden="true"><use href="#i-system"/></svg></span><h3>Acompañamiento</h3><p>Si lo quieres, te acompañamos cada mes con el mantenimiento.</p></li>
+      </ul>
+    </section>
+
     <section class="sheet works" id="trabajos" aria-labelledby="trabajos-t">
-      <div class="works-text">
-        <h2 id="trabajos-t" class="display-2">Lo que el cliente ve. Lo que tú recibes.</h2>
-        <p>Mientras tu asistente atiende por WhatsApp, cada interesado queda anotado con lo que pidió. Tú revisas la lista y respondes a quien te interesa.</p>
-        <p class="proof">Ya construimos asistentes de WhatsApp para las agencias de turismo <b>Visiting Galapagos</b> y <b>Travel Sant</b>.</p>
-        <p class="note">Las láminas de esta página son ejemplos. Con tu negocio usamos tus productos, tus horarios y tus precios.</p>
+      <div class="works-head">
+        <h2 id="trabajos-t" class="display-2">Nuestro trabajo.</h2>
+        <p>Sitios, sistemas y asistentes que ya están funcionando. También construimos asistentes de WhatsApp para las agencias de turismo <b>Visiting Galapagos</b> y <b>Travel Sant</b>.</p>
       </div>
-
-      <div class="works-plates">
-      <figure class="plate plate-chat">
-        <span class="reg reg-tl" aria-hidden="true"></span>
-        <span class="reg reg-tr" aria-hidden="true"></span>
-        <span class="reg reg-bl" aria-hidden="true"></span>
-        <span class="reg reg-br" aria-hidden="true"></span>
-
-        <div class="wa" role="img" aria-label="Conversación de ejemplo: un cliente pregunta por pintura a una ferretería y el asistente responde y toma el pedido.">
+      <div class="folio">
+        <figure class="folio-card">
+          <div class="folio-stage">
+            <div class="frame-browser frame-scroll">
+              <div class="browser-bar" aria-hidden="true"><i></i><i></i><i></i><span>fundargalapagos.org</span></div>
+              <div class="shot"><img src="work-fundar.jpg" alt="Página completa del sitio de Fundar Galápagos" width="768" loading="lazy"></div>
+            </div>
+          </div>
+          <figcaption><b>Fundar Galápagos</b><span>Sitio web de una fundación · pasa el cursor para recorrerlo</span></figcaption>
+        </figure>
+        <figure class="folio-card">
+          <div class="folio-stage">
+            <div class="frame-phone">
+          <div class="wa" role="img" aria-label="Conversación de ejemplo: un cliente pregunta por pintura a una ferretería y el asistente responde y toma el pedido.">
           <div class="wa-head">
             <span class="wa-avatar" aria-hidden="true">FS</span>
             <span class="wa-who"><b>Ferretería San Blas</b><small>Asistente · en línea</small></span>
@@ -126,31 +165,16 @@
             <li class="msg in">Envíenmelo a La Floresta, porfa.<time>21:15</time></li>
             <li class="msg out">Listo. ¿A qué nombre registro el pedido? Mañana a primera hora te confirmamos el envío.<time>21:15</time></li>
           </ol>
-        </div>
-
-        <figcaption class="credit">
-          <span>Lámina 01 · Asistente WhatsApp</span>
-          <span>Ejemplo</span>
-        </figcaption>
-
-        <div class="seal" aria-hidden="true">
-          <svg viewBox="0 0 120 120">
-            <defs><path id="ring" d="M60 60m-45 0a45 45 0 1 1 90 0a45 45 0 1 1-90 0"/></defs>
-            <circle cx="60" cy="60" r="59" class="seal-disk"/>
-            <g class="seal-spin"><text><textPath href="#ring">HEXNEX · TECNOLOGÍA QUE IMPULSA TU NEGOCIO ·</textPath></text></g>
-            <circle cx="60" cy="60" r="31" class="seal-core"/>
-          </svg>
-          <img src="logo-mark.png" alt="" width="44" height="44">
-        </div>
-      </figure>
-
-      <figure class="plate plate-leads">
-        <span class="reg reg-tl" aria-hidden="true"></span>
-        <span class="reg reg-tr" aria-hidden="true"></span>
-        <span class="reg reg-bl" aria-hidden="true"></span>
-        <span class="reg reg-br" aria-hidden="true"></span>
-
-        <div class="leads">
+          </div>
+            </div>
+          </div>
+          <figcaption><b>Asistente de WhatsApp</b><span>Lo que ve tu cliente · ejemplo</span></figcaption>
+        </figure>
+        <figure class="folio-card">
+          <div class="folio-stage">
+            <div class="frame-browser">
+              <div class="browser-bar" aria-hidden="true"><i></i><i></i><i></i><span>panel · interesados</span></div>
+          <div class="leads">
           <div class="leads-head">
             <b>Interesados de hoy</b>
             <span>3 registros</span>
@@ -166,37 +190,42 @@
               <tr><td>09:41</td><td>Lucía R.</td><td>Horario del sábado</td><td><span class="state">Respondido</span></td></tr>
             </tbody>
           </table>
-        </div>
+          </div>
+            </div>
+          </div>
+          <figcaption><b>Registro de interesados</b><span>Lo que recibes tú · ejemplo</span></figcaption>
+        </figure>
+        <figure class="folio-card">
+          <div class="folio-stage">
+            <div class="frame-browser frame-scroll">
+              <div class="browser-bar" aria-hidden="true"><i></i><i></i><i></i><span>juanpage.github.io/hexnex</span></div>
+              <div class="shot"><img src="work-hexnex.jpg" alt="Página completa del sitio web de Hexnex" width="720" loading="lazy"></div>
+            </div>
+          </div>
+          <figcaption><b>Sitio web de Hexnex</b><span>Diseñado a la medida · pasa el cursor para recorrerlo</span></figcaption>
+        </figure>
+      </div>
+      <p class="works-note">Los ejemplos usan una ferretería ficticia. Con tu negocio usamos tus productos, tus horarios y tus precios.</p>
+    </section>
 
-        <figcaption class="credit">
-          <span>Lámina 02 · Interesados</span>
-          <span>Ejemplo</span>
-        </figcaption>
-      </figure>
+    <section class="sheet band" aria-labelledby="band-t">
+      <div class="band-inner">
+        <h2 id="band-t">¿Tienes una idea para tu negocio? Cuéntanosla.</h2>
+        <a class="wa-btn wa-btn-lg" href="https://wa.me/593983150933?text=Hola%2C%20tengo%20una%20idea%20para%20mi%20negocio."><span class="wa-dot"><svg class="ico" aria-hidden="true"><use href="#i-whatsapp"/></svg></span><span class="wa-label">Escribir por WhatsApp</span></a>
       </div>
     </section>
 
     <section class="sheet steps" id="empezar" aria-labelledby="empezar-t">
-      <h2 id="empezar-t" class="display-2">El primer paso es gratis.</h2>
-      <ol class="step-table">
-        <li>
-          <span class="step-n">1</span>
-          <h3>Auditoría de tu sitio actual</h3>
-          <p>Revisamos lo que tienes y te entregamos mejoras concretas.</p>
-          <span class="step-tag">Gratis</span>
-        </li>
-        <li>
-          <span class="step-n">2</span>
-          <h3>Demo de tu página o catálogo</h3>
-          <p>Ves tu negocio en pantalla antes de decidir nada.</p>
-          <span class="step-tag">Gratis</span>
-        </li>
-        <li>
-          <span class="step-n">3</span>
-          <h3>Propuesta clara</h3>
-          <p>Con el precio final escrito, antes de empezar.</p>
-          <span class="step-tag">Sin sorpresas</span>
-        </li>
+      <div class="steps-head">
+        <h2 id="empezar-t" class="display-2">Cómo trabajamos.</h2>
+        <p>Cinco pasos claros. Los dos primeros no te cuestan nada.</p>
+      </div>
+      <ol class="method">
+        <li><span class="step-n">1</span><span class="step-tag">Hoy mismo</span><h3>Conversamos</h3><p>Nos escribes por WhatsApp y nos cuentas qué necesita tu negocio.</p></li>
+        <li><span class="step-n">2</span><span class="step-tag">Gratis</span><h3>Auditoría</h3><p>Revisamos lo que tienes y te entregamos mejoras concretas.</p></li>
+        <li><span class="step-n">3</span><span class="step-tag">Gratis</span><h3>Demo</h3><p>Ves tu página o catálogo en pantalla antes de decidir nada.</p></li>
+        <li><span class="step-n">4</span><span class="step-tag">Por escrito</span><h3>Propuesta</h3><p>Precio final y plazo por escrito, sin sorpresas.</p></li>
+        <li><span class="step-n">5</span><span class="step-tag">Contigo</span><h3>Lanzamos</h3><p>Construimos, lo publicamos y te enseñamos a usarlo.</p></li>
       </ol>
     </section>
 
@@ -220,10 +249,7 @@
       <div class="sheet back-inner">
         <h2 id="contacto-t">Escríbenos.</h2>
         <div class="back-side">
-          <a class="btn btn-wa" href="https://wa.me/593983150933">
-            <svg class="ico" aria-hidden="true"><use href="#i-whatsapp"/></svg>
-            +593 98 315 0933
-          </a>
+          <a class="wa-btn wa-btn-lg" href="https://wa.me/593983150933"><span class="wa-dot"><svg class="ico" aria-hidden="true"><use href="#i-whatsapp"/></svg></span><span class="wa-label">+593 98 315 0933</span></a>
           <dl class="colophon">
             <div><dt>Correo</dt><dd><a href="mailto:hexnex1@outlook.com">hexnex1@outlook.com</a></dd></div>
             <div><dt>Atención</dt><dd>Lunes a viernes, 9:00 a 18:00. El asistente responde a cualquier hora.</dd></div>

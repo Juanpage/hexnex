@@ -162,7 +162,7 @@ The build rejects the agency default of headline plus phone mockup plus a row of
 - 1px hairlines for every divider, frame and table rule; dashed hairlines only between credit columns.
 - CSS registration crosshairs at the four corners of every plate.
 - One grotesque (Hanken Grotesk) for display and body; 11px mono caps (JetBrains Mono) for registration labels, plate credits, nav tokens, buttons, table heads and state chips.
-- Square Hexnex controls; circles are reserved for the logo mark, the seal, avatars and the floating WhatsApp button.
+- Pill controls and softly rounded plates and panels; circles mark identity (logo, seal, avatars, floating WhatsApp button) and order (glyph badges, step numerals).
 - A single rotating seal per page, in cyan wash with a cyan rule.
 
 **Shipping assets and provenance:**
@@ -255,7 +255,7 @@ The system is flat paper. Plates are not lifted; they are framed by a 1px hairli
 
 ## Shapes
 
-Hexnex's own geometry is square: buttons, plates, chips, tables and the skip link have 0 radius. Circles are deliberate and few: the logo mark (always shown in a circle), the seal, the chat avatar and the floating WhatsApp button. Inside the WhatsApp plate, bubbles keep WhatsApp's 8px radius with the squared tail corner, because the plate reproduces that product faithfully.
+Hexnex's geometry is soft (owner's request, 2026-11-24): every button, CTA, chip and step tag is a full pill (999px); plates round to 18px (their offset outline follows the curve); offer rows, the privacy panel and the top of the navy contact spread round to 28px. Circles mark identity and order: the logo mark, the seal, the chat avatar, the floating WhatsApp button, the service glyph badges (cyan wash disk) and the blue step numerals. Tables and hairline rules stay straight. Inside the WhatsApp plate, bubbles keep WhatsApp's 8px radius with the squared tail corner, because the plate reproduces that product faithfully.
 
 Recurring silhouettes:
 - **Registration crosshair:** two 1px navy strokes in a 21px square, placed 22px outside each plate corner (lower pair aligned above the plate credit).
@@ -266,19 +266,19 @@ Recurring silhouettes:
 ## Components
 
 ### Buttons
-Square, mono, quiet; a printed label more than a pill.
-- **Shape:** square corners (0).
+Pill-shaped, mono caps; the primary carries a soft offset shadow.
+- **Shape:** full pill (999px).
 - **Primary (ink):** Annual Navy fill, white mono caps 12px, 48px tall, 22px side padding, 14px gap; leads with the official WhatsApp glyph in WhatsApp green and ends with a 1.5px arrow.
 - **Hover / Focus:** fill shifts to Registration Blue Deep and the arrow slides 4px right (0.3 to 0.4s, ease-out expo). Focus is a 2px Registration Blue outline offset 3px (cyan on the navy spread).
 - **Line:** 1px navy border, navy text, 44px tall (40px under 600px); fills navy on hover. Used in the bar.
 - **WhatsApp:** WhatsApp green fill with dark green ink, 56px tall, 13px mono, on the navy contact spread only.
 
 ### Chips
-- **Style:** mono caps 11px at 0.1em, 4px 8px padding, 1px hairline border, square.
+- **Style:** mono caps 11px at 0.1em, 4px 10px padding, 1px hairline border, pill.
 - **State:** neutral (hairline, Soft Ink), go (Registration Blue border, Blue Wash fill, Blue Deep text), wait (Seal Cyan border, Cyan Wash fill, Cyan Ink text).
 
 ### Cards / Containers (Plates)
-- **Corner Style:** square (0).
+- **Corner Style:** 18px; offer rows and panels 28px.
 - **Background:** Plate White for Hexnex-authored plates; Chat Paper for the WhatsApp plate.
 - **Shadow Strategy:** the Plate frame from Elevation & Depth.
 - **Border:** hairline ring; inner rules in Soft Hairline.
